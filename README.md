@@ -15,3 +15,15 @@
   "username":"Layl",
   "password":"123"
 }
+```
+- **Request:** 
+- ```json
+{
+  "name":"Layl",
+  "age":"18",
+  "gender":"Male",
+  
+  "username":"Layl",
+  "password":"123"
+}
+```
