@@ -3,9 +3,9 @@
 ## User Management
 
 ### 1. Create User
-**Method:** `POST`  
-**Endpoint:** `/user/input`  
-**Request:**
+- **Method:** `POST`  
+- **Endpoint:** `/user/input`  
+- **Request:**
 ```json
 {
   "name":"Layl",
@@ -17,7 +17,7 @@
 }
 ```
 - **Request:** 
-- ```json
+```json
 {
   "name":"Layl",
   "age":"18",
