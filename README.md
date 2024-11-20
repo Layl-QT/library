@@ -1,7 +1,17 @@
+# Library API
 
+## User Management
 
-
-``` json
+### 1. Create User
+**Method:** `POST`  
+**Endpoint:** `/user/input`  
+**Request:**
+```json
 {
-  "firstname":"Lyle"
+  "name":"Layl",
+  "age":"18",
+  "gender":"Male",
+  
+  "username":"Layl",
+  "password":"123"
 }
