@@ -16,14 +16,10 @@
   "password":"123"
 }
 ```
-- **Request:** 
+-- **Response:** 
   ```json
-  {
-    "name":"Layl",
-    "age":"18",
-    "gender":"Male",
-  
-    "username":"Layl",
-    "password":"123"
-  }
+{
+  "status": "success",
+  "data": null
+}
   ```
