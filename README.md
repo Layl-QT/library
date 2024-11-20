@@ -17,13 +17,13 @@
 }
 ```
 - **Request:** 
-```json
-{
-  "name":"Layl",
-  "age":"18",
-  "gender":"Male",
+  ```json
+  {
+    "name":"Layl",
+    "age":"18",
+    "gender":"Male",
   
-  "username":"Layl",
-  "password":"123"
-}
-```
+    "username":"Layl",
+    "password":"123"
+  }
+  ```
