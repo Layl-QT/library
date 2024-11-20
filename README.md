@@ -16,7 +16,7 @@
   "password":"123"
 }
 ```
-  - **Response:** 
+    - **Response:** 
   ```json
 {
   "status": "success",
