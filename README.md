@@ -164,7 +164,7 @@
       }
       ```
 
-### 5. Change User Password
+  ### 5. Change User Password
   - **Method:** `POST`  
   - **Endpoint:** `https://127.0.0.1/Library/public/user/password`  
   
@@ -175,51 +175,6 @@
       "token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxNzMwODgsImV4cCI6MTczMjE3MzIwOCwiZGF0YSI6eyJ1c2VyaWQiOiI5IiwibmFtZSI6IkxheWwifX0.ENpzk2x3D2U2MvwXpPtUXehwQclVwquDBx4lSeZWNLQ"
     }
     ```
-### 2. Authenticate User
-- **Method:** `Get`  
-- **Endpoint:** `https://127.0.0.1/Library/public/user/token`  
-
-- **Request:**
-  ```json
-  {
-  "username":"Layl",
-  "password":"123"
-  }
-  ```
-- **Response:**
-  - **Success:** 
-    ```json
-    {
-      "status": "success",
-      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxMjMwMjgsImV4cCI6MTczMjEyMzE0OCwiZGF0YSI6eyJ1c2VyaWQiOiI5IiwibmFtZSI6IkxheWwifX0.Mw8lVtZRa5LHADWkKHX3r2mJzu10KGfAAIDnV_8MjOA",
-      "data": null
-    }
-    ```
-  - **Fail:** 
-    ```json
-    {
-      "status": "fail",
-      "data": {
-        "title": "Authentication Failed"
-      }
-    }
-    ```
-  - **Response:**
-    - **Success:** 
-      ```json
-      {
-        "status": "success"
-      }
-      ```
-    - **Fail:** 
-      ```json
-      {
-        "status": "fail",
-        "data": {
-          "title": "Invalid or Expired Token"
-        }
-      }
-      ```
 
 
   ### 6. Add New Book
@@ -255,7 +210,7 @@
       ```
 
 
-### 7. View Book List
+  ### 7. View Book List
   - **Method:** `GET`  
   - **Endpoint:** `http://127.0.0.1/Library/public/book/list`  
   
@@ -296,7 +251,7 @@
       }
       ```
 
-### 8. View Book
+  ### 8. View Book
   - **Method:** `GET`  
   - **Endpoint:** `http://127.0.0.1/Library/public/book/view`  
   
@@ -363,7 +318,7 @@
       ```
 
 
-### 10. Return Book
+  ### 10. Return Book
   - **Method:** `POST`  
   - **Endpoint:** `http://127.0.0.1/Library/public/book/return`  
   
@@ -390,7 +345,7 @@
       }
       ```
 
-### 11. View Author List
+  ### 11. View Author List
   - **Method:** `GET`  
   - **Endpoint:** `http://127.0.0.1/Library/public/author/list`  
   
@@ -429,7 +384,7 @@
       }
       ```
 
-### 12. View Author
+  ### 12. View Author
   - **Method:** `GET`  
   - **Endpoint:** `http://127.0.0.1/Library/public/author/view`  
   
