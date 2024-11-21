@@ -485,4 +485,3 @@
 ![My Face](https://mystickermania.com/cdn/stickers/anime/noragami-yato-cat-smile-512x512.png)
 
 ---
->>>>>>> 8a58710fa48e5dfe3a889451d4cf92767316f78e
