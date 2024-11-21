@@ -1,4 +1,5 @@
 # Library API Documentation 
+##### This API helps manage a library system, where users can register, log in, borrow and return books, update user details, and allows admins to add and update books and authors. The system is built using the Slim Framework, with SQLyog for database management, and Composer for handling libraries.
 ---
 
 ## Table of Contents
