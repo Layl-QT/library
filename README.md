@@ -175,7 +175,6 @@
       "token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxNzMwODgsImV4cCI6MTczMjE3MzIwOCwiZGF0YSI6eyJ1c2VyaWQiOiI5IiwibmFtZSI6IkxheWwifX0.ENpzk2x3D2U2MvwXpPtUXehwQclVwquDBx4lSeZWNLQ"
     }
     ```
-<<<<<<< HEAD
 ### 2. Authenticate User
 - **Method:** `Get`  
 - **Endpoint:** `https://127.0.0.1/Library/public/user/token`  
@@ -205,9 +204,6 @@
       }
     }
     ```
-
-    ## comment ##
-=======
   - **Response:**
     - **Success:** 
       ```json
