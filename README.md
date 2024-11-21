@@ -175,6 +175,39 @@
       "token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxNzMwODgsImV4cCI6MTczMjE3MzIwOCwiZGF0YSI6eyJ1c2VyaWQiOiI5IiwibmFtZSI6IkxheWwifX0.ENpzk2x3D2U2MvwXpPtUXehwQclVwquDBx4lSeZWNLQ"
     }
     ```
+<<<<<<< HEAD
+### 2. Authenticate User
+- **Method:** `Get`  
+- **Endpoint:** `https://127.0.0.1/Library/public/user/token`  
+
+- **Request:**
+  ```json
+  {
+  "username":"Layl",
+  "password":"123"
+  }
+  ```
+- **Response:**
+  - **Success:** 
+    ```json
+    {
+      "status": "success",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbGlicmFyeS5vcmciLCJhdWQiOiJodHRwOi8vbGlicmFyeS5jb20iLCJpYXQiOjE3MzIxMjMwMjgsImV4cCI6MTczMjEyMzE0OCwiZGF0YSI6eyJ1c2VyaWQiOiI5IiwibmFtZSI6IkxheWwifX0.Mw8lVtZRa5LHADWkKHX3r2mJzu10KGfAAIDnV_8MjOA",
+      "data": null
+    }
+    ```
+  - **Fail:** 
+    ```json
+    {
+      "status": "fail",
+      "data": {
+        "title": "Authentication Failed"
+      }
+    }
+    ```
+
+    ## comment ##
+=======
   - **Response:**
     - **Success:** 
       ```json
@@ -452,3 +485,4 @@
 ![My Face](https://mystickermania.com/cdn/stickers/anime/noragami-yato-cat-smile-512x512.png)
 
 ---
+>>>>>>> 8a58710fa48e5dfe3a889451d4cf92767316f78e
