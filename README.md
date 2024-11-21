@@ -1,8 +1,27 @@
 # Library API Documentation 
 ---
-  ## Enpoints & Description
-  1. http://127.0.0.1/library/public/user/input - Create Users and save to yah
-  2. https://127.0.0.1/Library/public/user/token - Authenticate the user
+
+# Table of Contents
+
+1. [Library API Documentation](#library-api-documentation)  
+2. [Endpoints & Description](#endpoints--description)  
+3. [API Components](#api-components)  
+4. [Contact Information](#contact-information)
+---
+
+  ## Endpoints & Description
+  1. http://127.0.0.1/library/public/user/input - Create and save new user.
+  2. https://127.0.0.1/Library/public/user/token - Authenticate user and get a token.
+  3. https://127.0.0.1/Library/public/user/view - View user details.
+  4. https://127.0.0.1/Library/public/user/delete - Delete user account.
+  5. http://127.0.0.1/Library/public/book/add - Add a new book to the catalog.
+  6. http://127.0.0.1/Library/public/book/add - Add another new book to the catalog.
+  7. http://127.0.0.1/Library/public/book/list - List all books in the library.
+  8. http://127.0.0.1/Library/public/book/view - View a specific book's details.
+  9. http://127.0.0.1/Library/public/book/borrow - Borrow a book from the library.
+  10. http://127.0.0.1/Library/public/book/return - Return a borrowed book.
+  11. http://127.0.0.1/Library/public/author/list - List all authors in the library.
+  12. http://127.0.0.1/Library/public/author/view - View a specific author's details.
 ---
 
 ## API Components
@@ -40,7 +59,7 @@
         }
       ```
   ### 2. Authenticate User
-  - **Method:** `Get`  
+  - **Method:** `GET`  
   - **Endpoint:** `https://127.0.0.1/Library/public/user/token`  
   
   - **Request:**
@@ -70,7 +89,7 @@
       ```
   
   ### 3. View User Info
-  - **Method:** `Post`  
+  - **Method:** `GET`  
   - **Endpoint:** `https://127.0.0.1/Library/public/user/view`  
   
   - **Request:**
@@ -108,7 +127,7 @@
 
 
   ### 4. Delete User Info
-  - **Method:** `Delete`  
+  - **Method:** `DELETE`  
   - **Endpoint:** `https://127.0.0.1/Library/public/user/delete`  
   
   - **Request:**
@@ -136,7 +155,7 @@
       ```
 
 ### 5. Change User Password
-  - **Method:** `Post`  
+  - **Method:** `POST`  
   - **Endpoint:** `https://127.0.0.1/Library/public/user/password`  
   
   - **Request:**
@@ -165,7 +184,7 @@
 
 
   ### 6. Add New Book
-  - **Method:** `Post`  
+  - **Method:** `POST`  
   - **Endpoint:** `http://127.0.0.1/Library/public/book/add`  
   
   - **Request:**
@@ -198,7 +217,7 @@
 
 
 ### 7. View Book List
-  - **Method:** `Post`  
+  - **Method:** `GET`  
   - **Endpoint:** `http://127.0.0.1/Library/public/book/list`  
   
   - **Request:**
@@ -239,7 +258,7 @@
       ```
 
 ### 8. View Book
-  - **Method:** `Post`  
+  - **Method:** `GET`  
   - **Endpoint:** `http://127.0.0.1/Library/public/book/view`  
   
   - **Request:**
@@ -277,7 +296,7 @@
       ```
 
   ### 9. Borrow Book
-  - **Method:** `Post`  
+  - **Method:** `POST`  
   - **Endpoint:** `http://127.0.0.1/Library/public/book/borrow`  
   
   - **Request:**
@@ -306,7 +325,7 @@
 
 
 ### 10. Return Book
-  - **Method:** `Post`  
+  - **Method:** `POST`  
   - **Endpoint:** `http://127.0.0.1/Library/public/book/return`  
   
   - **Request:**
@@ -333,7 +352,7 @@
       ```
 
 ### 11. View Author List
-  - **Method:** `Post`  
+  - **Method:** `GET`  
   - **Endpoint:** `http://127.0.0.1/Library/public/author/list`  
   
   - **Request:**
@@ -372,7 +391,7 @@
       ```
 
 ### 12. View Author
-  - **Method:** `Post`  
+  - **Method:** `GET`  
   - **Endpoint:** `http://127.0.0.1/Library/public/author/view`  
   
   - **Request:**
@@ -410,3 +429,16 @@
         }
       }
       ```
+---
+
+## Contact Information
+
+#### User: Layl-QT
+#### Facebook: Lyle Monis
+#### Gmail: monislyle@gmail.com
+#### Contact Number: 09777540158
+#### Gcash: 09858485821 (Badly needed)
+
+![My Face](https://mystickermania.com/cdn/stickers/anime/noragami-yato-cat-smile-512x512.png)
+
+---
