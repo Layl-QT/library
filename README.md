@@ -1,14 +1,23 @@
 # Library API Documentation 
 ---
 
-# Table of Contents
+## Table of Contents
 
-1. [Library API Documentation](#library-api-documentation)  
-2. [Endpoints & Description](#endpoints--description)  
-3. [API Components](#api-components)  
-4. [Contact Information](#contact-information)
+1. [Library API Documentation](#library-api-documentation)
+2. [Software/Application Used](#software--application-used) 
+3. [Endpoints & Description](#endpoints--description)  
+4. [API Components](#api-components)  
+5. [Contact Information](#contact-information)
 ---
 
+
+## Software / Application Used
+
+1. Slim Framework
+2. SQLyog
+3. Thunder Client
+4. Composer
+---
   ## Endpoints & Description
   1. http://127.0.0.1/library/public/user/input - Create and save new user.
   2. https://127.0.0.1/Library/public/user/token - Authenticate user and get a token.
